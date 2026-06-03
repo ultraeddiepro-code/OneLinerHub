@@ -1,6 +1,16 @@
-COUNT(DISTINCT col)
+# Aggregation Functions
 
-GROUP BY col
-HAVING COUNT(*) > 1
+## COUNT DISTINCT
 
-UNION ALL
+```sql
+SELECT COUNT(DISTINCT customer_id)
+FROM orders;
+```
+
+Counts unique values.
+
+---
+
+## GROUP BY HAVING
+
+...
