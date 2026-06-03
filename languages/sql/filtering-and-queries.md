@@ -1,9 +1,36 @@
-CASE WHEN col > 100
-THEN 'High'
+# Filtering and Queries
+
+## CASE WHEN
+
+```sql
+CASE
+WHEN col > 100 THEN 'High'
 ELSE 'Low'
 END
+```
 
-WHERE col IN
-(SELECT col FROM table)
+Creates conditional categories.
 
-WITH cte AS (...)
+---
+
+## WHERE IN
+
+```sql
+WHERE col IN (
+    SELECT col FROM table
+)
+```
+
+Filters using a subquery.
+
+---
+
+## CTE
+
+```sql
+WITH cte AS (
+    SELECT ...
+)
+```
+
+Creates reusable query blocks.
