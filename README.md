@@ -1,20 +1,27 @@
 # OneLinerHub
 
-A collection of programming one-liners with explanations.
+Learn More. Type Less.
+
+A community-driven collection of programming one-liners with explanations, examples, and practical use cases.
 
 ## Languages
 
-- Python
-- JavaScript
-- C++
-- Java
-- Go
-- Rust
-- Bash
+### SQL
 
-## Contributing
+* Aggregation
+* NULL Handling
+* String Functions
+* Date Functions
+* Filtering & Queries
+* Window Functions
 
-Read CONTRIBUTING.md
+### Python
+
+* Strings
+* Lists
+* Dictionaries
+* Sets
+* Useful Tricks
 
 ## Example
 
@@ -23,3 +30,17 @@ text[::-1]
 ```
 
 Reverse a string using slicing.
+
+## Contributing
+
+See CONTRIBUTING.md
+
+## Repository Structure
+
+```text
+languages/
+├── sql/
+├── python/
+├── javascript/
+└── bash/
+```
