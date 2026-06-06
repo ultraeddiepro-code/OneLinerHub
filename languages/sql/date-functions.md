@@ -3,37 +3,47 @@
 ## CAST
 
 ```sql
-CAST(col AS DATE)
+CAST(order_date AS DATE)
 ```
 
-Converts values to date type.
+Converts data type.
 
 ---
 
 ## DATE_TRUNC
 
 ```sql
-DATE_TRUNC('month', date)
+DATE_TRUNC('month', order_date)
 ```
 
-Rounds dates to month boundaries.
+Rounds date to specified precision.
 
 ---
 
 ## EXTRACT
 
 ```sql
-EXTRACT(YEAR FROM date)
+EXTRACT(YEAR FROM order_date)
 ```
 
-Gets a specific date component.
+Extracts date components.
 
 ---
 
 ## DATEDIFF
 
 ```sql
-DATEDIFF(end_date, start_date)
+DATEDIFF(day, start_date, end_date)
 ```
 
 Calculates difference between dates.
+
+---
+
+## CURRENT_DATE
+
+```sql
+CURRENT_DATE
+```
+
+Returns current date.
