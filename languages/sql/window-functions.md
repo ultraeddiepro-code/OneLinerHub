@@ -3,47 +3,57 @@
 ## RANK
 
 ```sql
-RANK() OVER (ORDER BY col DESC)
+RANK() OVER (ORDER BY salary DESC)
 ```
 
-Ranks rows with ties.
+Assigns ranking with gaps.
+
+---
+
+## DENSE_RANK
+
+```sql
+DENSE_RANK() OVER (ORDER BY salary DESC)
+```
+
+Assigns ranking without gaps.
+
+---
+
+## ROW_NUMBER
+
+```sql
+ROW_NUMBER() OVER (ORDER BY salary DESC)
+```
+
+Assigns unique row numbers.
 
 ---
 
 ## LAG
 
 ```sql
-LAG(col) OVER (ORDER BY date)
+LAG(sales) OVER (ORDER BY month)
 ```
 
-Gets previous row value.
+Access previous row.
 
 ---
 
 ## LEAD
 
 ```sql
-LEAD(col) OVER (ORDER BY date)
+LEAD(sales) OVER (ORDER BY month)
 ```
 
-Gets next row value.
+Access next row.
 
 ---
 
 ## Running Total
 
 ```sql
-SUM(col) OVER (ORDER BY date)
+SUM(amount) OVER (ORDER BY order_date)
 ```
 
-Calculates cumulative totals.
-
----
-
-## Moving Average
-
-```sql
-AVG(col) OVER (PARTITION BY region)
-```
-
-Calculates average within a group.
+Calculates cumulative sum.
