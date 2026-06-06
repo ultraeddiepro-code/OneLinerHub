@@ -3,17 +3,37 @@
 ## COALESCE
 
 ```sql
-COALESCE(col, 0)
+COALESCE(phone, 'Unknown')
 ```
 
-Replace NULL values.
+Returns the first non-NULL value.
 
 ---
 
 ## NULLIF
 
 ```sql
-NULLIF(col, 0)
+NULLIF(score, 0)
 ```
 
-Returns NULL if value equals zero.
+Returns NULL if values match.
+
+---
+
+## IS NULL
+
+```sql
+WHERE email IS NULL
+```
+
+Find rows containing NULL values.
+
+---
+
+## IS NOT NULL
+
+```sql
+WHERE email IS NOT NULL
+```
+
+Find rows that contain values.
