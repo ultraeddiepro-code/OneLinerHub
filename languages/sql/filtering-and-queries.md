@@ -4,33 +4,60 @@
 
 ```sql
 CASE
-WHEN col > 100 THEN 'High'
-ELSE 'Low'
+    WHEN salary > 100000 THEN 'High'
+    ELSE 'Low'
 END
 ```
 
-Creates conditional categories.
+Conditional logic in SQL.
 
 ---
 
-## WHERE IN
+## IN
 
 ```sql
-WHERE col IN (
-    SELECT col FROM table
+WHERE department_id IN (1, 2, 3)
+```
+
+Checks multiple values.
+
+---
+
+## EXISTS
+
+```sql
+WHERE EXISTS (
+    SELECT 1
+    FROM orders
+    WHERE orders.customer_id = customers.customer_id
 )
 ```
 
-Filters using a subquery.
+Checks whether rows exist.
 
 ---
 
 ## CTE
 
 ```sql
-WITH cte AS (
-    SELECT ...
+WITH sales AS (
+    SELECT *
+    FROM orders
 )
+SELECT *
+FROM sales;
 ```
 
 Creates reusable query blocks.
+
+---
+
+## LIMIT
+
+```sql
+SELECT *
+FROM employees
+LIMIT 10;
+```
+
+Returns limited rows.
