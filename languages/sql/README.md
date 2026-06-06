@@ -1,5 +1,7 @@
 # SQL One-Liners
 
+A collection of useful SQL one-liners with explanations.
+
 ## Categories
 
 - [Aggregation](aggregation.md)
