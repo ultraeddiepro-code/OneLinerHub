@@ -32,4 +32,26 @@ UNION ALL
 SELECT city FROM suppliers;
 ```
 
-Combines results and keeps duplicates.
+Combines result sets and keeps duplicates.
+
+---
+
+## SUM
+
+```sql
+SELECT SUM(amount)
+FROM orders;
+```
+
+Calculates total value.
+
+---
+
+## AVG
+
+```sql
+SELECT AVG(salary)
+FROM employees;
+```
+
+Calculates average value.
