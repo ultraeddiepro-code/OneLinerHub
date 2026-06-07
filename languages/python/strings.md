@@ -10,16 +10,6 @@ Reverse a string.
 
 ---
 
-## Title Case
-
-```python
-text.title()
-```
-
-Capitalize each word.
-
----
-
 ## Count Words
 
 ```python
@@ -37,3 +27,33 @@ text.replace(" ", "")
 ```
 
 Remove all spaces.
+
+---
+
+## Title Case
+
+```python
+text.title()
+```
+
+Capitalize every word.
+
+---
+
+## Check Palindrome
+
+```python
+text == text[::-1]
+```
+
+Check if a string reads the same forwards and backwards.
+
+---
+
+## Count Character Occurrences
+
+```python
+text.count("a")
+```
+
+Count occurrences of a character.
