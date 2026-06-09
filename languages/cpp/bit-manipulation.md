@@ -6,7 +6,7 @@
 n && !(n & (n - 1))
 ```
 
-Returns true if power of two.
+Check if number is power of two.
 
 ---
 
@@ -37,3 +37,23 @@ n ^= (1 << k)
 ```
 
 Flip kth bit.
+
+---
+
+## Check kth Bit
+
+```cpp
+(n >> k) & 1
+```
+
+Check kth bit.
+
+---
+
+## Set kth Bit
+
+```cpp
+n |= (1 << k)
+```
+
+Set kth bit to 1.
