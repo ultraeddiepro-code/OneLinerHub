@@ -16,7 +16,7 @@ Speed up input/output.
 swap(a, b);
 ```
 
-Exchange values.
+Swap variables.
 
 ---
 
@@ -36,14 +36,44 @@ Anonymous function.
 for(auto &x : v)
 ```
 
-Iterate through container.
+Iterate container.
 
 ---
 
-## Size of Vector
+## Vector Size
 
 ```cpp
 v.size()
 ```
 
-Get number of elements.
+Number of elements.
+
+---
+
+## Pair Creation
+
+```cpp
+make_pair(a, b)
+```
+
+Create pair.
+
+---
+
+## Structured Binding (C++17)
+
+```cpp
+auto [x, y] = p;
+```
+
+Unpack pair.
+
+---
+
+## Ternary Operator
+
+```cpp
+a > b ? a : b
+```
+
+Inline condition.
