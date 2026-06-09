@@ -6,7 +6,7 @@
 sort(v.begin(), v.end());
 ```
 
-Sort vector ascending.
+Sort ascending.
 
 ---
 
@@ -16,7 +16,7 @@ Sort vector ascending.
 reverse(v.begin(), v.end());
 ```
 
-Reverse vector elements.
+Reverse elements.
 
 ---
 
@@ -40,10 +40,20 @@ Get smallest value.
 
 ---
 
-## Sum of Elements
+## Sum Elements
 
 ```cpp
 accumulate(v.begin(), v.end(), 0)
 ```
 
-Calculate total sum.
+Calculate total.
+
+---
+
+## Remove Duplicates
+
+```cpp
+v.erase(unique(v.begin(), v.end()), v.end());
+```
+
+Remove adjacent duplicates after sorting.
