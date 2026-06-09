@@ -37,3 +37,23 @@ s.length()
 ```
 
 Get string length.
+
+---
+
+## Check Palindrome
+
+```cpp
+s == string(s.rbegin(), s.rend())
+```
+
+Check if string is palindrome.
+
+---
+
+## Count Character
+
+```cpp
+count(s.begin(), s.end(), 'a')
+```
+
+Count occurrences of a character.
