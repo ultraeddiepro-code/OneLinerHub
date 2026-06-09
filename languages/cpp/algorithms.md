@@ -16,7 +16,7 @@ Check if value exists.
 count(v.begin(), v.end(), x)
 ```
 
-Count occurrences of value.
+Count occurrences.
 
 ---
 
@@ -26,7 +26,7 @@ Count occurrences of value.
 find(v.begin(), v.end(), x)
 ```
 
-Locate an element.
+Find element.
 
 ---
 
@@ -36,4 +36,24 @@ Locate an element.
 next_permutation(v.begin(), v.end())
 ```
 
-Generate next lexicographical arrangement.
+Generate next arrangement.
+
+---
+
+## All Of
+
+```cpp
+all_of(v.begin(), v.end(), pred)
+```
+
+Check condition for all elements.
+
+---
+
+## Any Of
+
+```cpp
+any_of(v.begin(), v.end(), pred)
+```
+
+Check condition for any element.
