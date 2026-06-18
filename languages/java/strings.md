@@ -4,3 +4,5 @@
 
 ```java
 new StringBuilder(str).reverse().toString()
+
+## String Length
