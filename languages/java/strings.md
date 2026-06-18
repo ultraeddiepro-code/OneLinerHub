@@ -5,3 +5,5 @@
 new StringBuilder(str).reverse().toString()
 
 ## String Length
+
+str.length()
