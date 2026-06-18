@@ -11,3 +11,7 @@ str.length()
 ## Uppercase
 
 str.toUpperCase()
+
+## Lowercase
+
+str.toLowerCase()
