@@ -68,13 +68,13 @@ See "CONTRIBUTING.md"
 Repository Structure
 
 languages/
-├── sql/
-├── python/
-├── cpp/
-├── java/
-├── javascript/
-├── bash/
-└── git/
+├── sql/  
+├── python/ 
+├── cpp/ 
+├── java/ 
+├── javascript/ 
+├── bash/ 
+└── git/ 
 
 Goals
 
