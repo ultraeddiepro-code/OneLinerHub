@@ -65,16 +65,27 @@ Contributing
 
 See "CONTRIBUTING.md"
 
-Repository Structure
+## Repository Structure
 
-languages/
- ├── sql/  
- ├── python/ 
- ├── cpp/ 
- ├── java/ 
- ├── javascript/ 
- ├── bash/ 
- └── git/ 
+```text
+OneLinerHub/
+│
+├── README.md
+├── CONTRIBUTING.md
+├── LICENSE
+│
+├── languages/
+│   ├── sql/
+│   ├── python/
+│   ├── cpp/
+│   ├── java/
+│   ├── javascript/
+│   ├── bash/
+│   └── git/
+│
+├── assets/
+└── .github/
+```
 
 Goals
 
