@@ -1,9 +1,3 @@
-
----
-
-## 3. arrays.md
-
-```md
 # Array One-Liners
 
 ## Sort Array
