@@ -4,3 +4,7 @@
 
 ```java
 map.containsKey(key)
+
+## Get Default Value
+
+map.getOrDefault(key, 0)
