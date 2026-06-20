@@ -12,3 +12,7 @@ list.stream().map(x -> x * 2).toList()
 ## Count Elements
 
 list.stream().count()
+
+## Find First
+
+list.stream().findFirst()
