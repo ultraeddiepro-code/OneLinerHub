@@ -1,9 +1,3 @@
-
----
-
-## 4. collections.md
-
-```md
 # Collections
 
 ## Create List
