@@ -18,3 +18,7 @@ Collections.sort(list)
 ## Reverse List
 
 Collections.reverse(list)
+
+## Remove Duplicates
+
+new HashSet<>(list)
