@@ -16,3 +16,5 @@ List.of(1, 2, 3)
 Collections.sort(list)
 
 ## Reverse List
+
+Collections.reverse(list)
