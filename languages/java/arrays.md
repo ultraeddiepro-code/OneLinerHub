@@ -20,3 +20,5 @@ Arrays.stream(arr).max().getAsInt()
 Arrays.stream(arr).min().getAsInt()
 
 ## Sum Array
+
+Arrays.stream(arr).sum()
