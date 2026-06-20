@@ -1,46 +1,95 @@
-# OneLinerHub
+OneLinerHub
 
 Learn More. Type Less.
 
 A community-driven collection of programming one-liners with explanations, examples, and practical use cases.
 
-## Languages
+Languages
 
-### SQL
+SQL
 
-* Aggregation
-* NULL Handling
-* String Functions
-* Date Functions
-* Filtering & Queries
-* Window Functions
+- Aggregation
+- NULL Handling
+- String Functions
+- Date Functions
+- Filtering & Queries
+- Window Functions
 
-### Python
+Python
 
-* Strings
-* Lists
-* Dictionaries
-* Sets
-* Useful Tricks
+- Strings
+- Lists
+- Dictionaries
+- Sets
+- Useful Tricks
 
-## Example
+C++
 
-```python
+- Strings
+- Vectors
+- Algorithms
+- Maps and Sets
+- Bit Manipulation
+- Useful Tricks
+
+Java
+
+- Strings
+- Arrays
+- Collections
+- Streams
+- Maps
+- Files
+- Date & Time
+- Math
+- Useful Tricks
+
+Example
+
 text[::-1]
-```
 
 Reverse a string using slicing.
 
-## Contributing
+Progress
 
-See CONTRIBUTING.md
+Language| Status
+SQL| Complete
+Python| Complete
+C++| Complete
+Java| Complete
+JavaScript| Planned
+Bash| Planned
+Git| Planned
+
+Contributing
+
+See "CONTRIBUTING.md"
 
 ## Repository Structure
 
 ```text
-languages/
-├── sql/
-├── python/
-├── javascript/
-└── bash/
+OneLinerHub/
+│
+├── README.md
+├── CONTRIBUTING.md
+├── LICENSE
+│
+├── languages/
+│   ├── sql/
+│   ├── python/
+│   ├── cpp/
+│   ├── java/
+│   ├── javascript/
+│   ├── bash/
+│   └── git/
+│
+├── assets/
+└── .github/
 ```
+
+Goals
+
+- Build a comprehensive programming one-liner reference
+- Keep examples concise and practical
+- Make learning common patterns faster
+- Encourage community contributions
