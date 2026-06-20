@@ -12,3 +12,5 @@
 List.of(1, 2, 3)
 
 ## Sort List
+
+Collections.sort(list)
