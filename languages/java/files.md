@@ -9,3 +9,5 @@ Files.readString(Path.of("file.txt"))
 Files.readAllLines(Path.of("file.txt"))
 
 ## Write File
+
+Files.writeString(Path.of("file.txt"), data)
