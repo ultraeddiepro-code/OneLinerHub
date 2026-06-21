@@ -9,3 +9,5 @@ LocalDate.now()
 LocalTime.now()
 
 ## Current DateTime
+
+LocalDateTime.now()
