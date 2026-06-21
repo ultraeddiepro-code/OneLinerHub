@@ -6,3 +6,6 @@ LocalDate.now()
 
 ## Current Time
 
+LocalTime.now()
+
+##
