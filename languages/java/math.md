@@ -8,3 +8,6 @@ Math.sqrt(x)
 
 Math.pow(a, b)
 
+## Random Number
+
+new Random().nextInt(100)
